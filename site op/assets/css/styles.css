@@ -1,0 +1,94 @@
+/* Global styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+/* Header styles */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: -110px;
+    position: absolute;
+    right: 3px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    margin: 10px;
+    font-weight: 500;
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+ul li.active a {
+    background: #fff;
+    color: #000;
+}
+
+/* Title styles */
+.titre {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre h1 {
+    color: #fff;
+    font-size: 110px;
+}
+
+/* Button styles */
+.bouton {
+    position: absolute;
+    bottom: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bouton a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Text styles */
+.texte h3 {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 80%; 
+    font-size: 25px;
+    text-align: center;
+    white-space: pre-line; 
+}
